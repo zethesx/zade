@@ -38,4 +38,20 @@ The original `lumen.mp4` was found at `C:\Users\user\Desktop\lumen.mp4` and copi
 
 ## Deployment
 
-Deploy the generated `dist/` directory to any static host that supports Vite output. The canonical URL in `index.html` is a clearly replaceable placeholder for `https://zadestudios.com/`.
+The project is configured for Cloudflare Workers Static Assets through `wrangler.jsonc`.
+
+```bash
+npm ci
+npm run build
+npm run deploy
+```
+
+For the Git-connected production workflow, Workers Builds should use:
+
+- Repository: `zethesx/zade`
+- Production branch: `main`
+- Build command: `npm run build`
+- Deploy command: `npm run deploy`
+- Root directory: `/`
+
+The `dist/` directory is generated locally and is intentionally ignored by Git. No custom domain is configured by this project. The canonical URL in `index.html` is a clearly replaceable placeholder for `https://zadestudios.com/`.
