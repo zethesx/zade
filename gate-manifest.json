@@ -1,0 +1,11 @@
+{
+  "projectRoot":".",
+  "layout":"contracts/layout-contract.json",
+  "composition":"contracts/composition.json",
+  "media":"contracts/media-spec.json",
+  "authority":"contracts/authority.json",
+  "accessibility":"contracts/accessibility.json",
+  "motion":"contracts/motion-spec.json",
+  "deliveryStatus":"ready",
+  "motionIntentRequired":true
+}

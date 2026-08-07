@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f06c98"/>
+  <rect x="42" y="42" width="1516" height="816" fill="none" stroke="#1b1a1a" stroke-width="4"/>
+  <text x="78" y="105" fill="#1b1a1a" font-family="Arial, sans-serif" font-size="17" letter-spacing="4">SUPPER CLUB 29</text>
+  <text x="1350" y="105" fill="#1b1a1a" font-family="Consolas, monospace" font-size="13" letter-spacing="2">OPEN LATE</text>
+  <text x="78" y="298" fill="#1b1a1a" font-family="Arial Narrow, Arial, sans-serif" font-size="138" font-weight="800" letter-spacing="-8">COME</text>
+  <text x="78" y="420" fill="#1b1a1a" font-family="Arial Narrow, Arial, sans-serif" font-size="138" font-weight="800" letter-spacing="-8">HUNGRY.</text>
+  <text x="82" y="492" fill="#1b1a1a" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">A LATE-NIGHT TABLE FOR THE CURIOUS.</text>
+  <path d="M84 710h386" stroke="#1b1a1a" stroke-width="2"/>
+  <text x="84" y="754" fill="#1b1a1a" font-family="Arial, sans-serif" font-size="19" letter-spacing="2">BOOK A TABLE</text>
+  <path d="M352 744h118l-16-16m16 16-16 16" fill="none" stroke="#1b1a1a" stroke-width="3"/>
+  <ellipse cx="1180" cy="458" rx="300" ry="190" fill="#f5e9d8" stroke="#1b1a1a" stroke-width="5"/>
+  <ellipse cx="1180" cy="458" rx="210" ry="122" fill="#f06c98" stroke="#1b1a1a" stroke-width="4"/>
+  <ellipse cx="1180" cy="458" rx="112" ry="64" fill="#f5e9d8" stroke="#1b1a1a" stroke-width="4"/>
+  <circle cx="1180" cy="458" r="28" fill="#1b1a1a"/>
+  <path d="M1180 230v-80M1180 686v-80M880 458h-80M1460 458h-80" stroke="#1b1a1a" stroke-width="4"/>
+  <path d="M1146 431l-38-48 42-28 54 52" fill="#2d59bc" stroke="#1b1a1a" stroke-width="4"/>
+  <text x="1248" y="737" fill="#1b1a1a" font-family="Consolas, monospace" font-size="13" letter-spacing="2">SUPPER CLUB / 29°N</text>
+</svg>

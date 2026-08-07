@@ -1,0 +1,14 @@
+{
+  "sectionId":"hero",
+  "approvedFamily":"split-screen",
+  "authoritySource":"project-direction: signal / pulse language; user brief: kinetic editorial typography with clear CTA",
+  "grid":{"columns":12,"gutter":"24px","inset":"clamp(20px,5vw,80px)"},
+  "headlineAnchor":{"selector":"[data-headline]","type":"left","gridReference":"columns 1-8","tolerancePx":20},
+  "bodyAnchor":{"selector":"[data-body]","type":"left","gridReference":"columns 1-6","tolerancePx":20},
+  "ctaAnchor":{"selector":"[data-primary-cta]","type":"left","gridReference":"columns 7-9","tolerancePx":20},
+  "mediaAnchor":{"selector":"[data-hero-visual]","type":"focal-point","gridReference":"columns 9-12","tolerancePx":20},
+  "geometryAnchor":{"selector":".hero__bottomline","type":"edge-end","gridReference":"column 12","tolerancePx":20},
+  "spacingTokens":["space-xs","space-md","space-xl","space-4xl"],
+  "mobileTransformation":{"type":"stack","details":"Copy, lede and CTA remain in normal flow before the signal orb; the orb scales down without affecting readable content."},
+  "allowedAbsolutePositionExceptions":[]
+}

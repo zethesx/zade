@@ -1,0 +1,12 @@
+node_modules/
+.vite/
+.os-gate-evidence/
+dist/
+.env
+.env.*
+!.env.example
+playwright-report/
+test-results/
+.wrangler/
+.DS_Store
+Thumbs.db

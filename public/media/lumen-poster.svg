@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#191919"/>
+  <circle cx="1190" cy="340" r="330" fill="#3159b8" opacity=".7"/><circle cx="1180" cy="335" r="180" fill="#f06c98" opacity=".72"/>
+  <path d="M0 760 440 500l290 240 330-220 540 260v220H0z" fill="#f6dc36" opacity=".7"/>
+  <text x="86" y="160" fill="#f4ead8" font-family="Arial Narrow, Arial, sans-serif" font-size="98" font-weight="800" letter-spacing="-5">ZS / FINAL SIGNAL</text>
+  <text x="92" y="880" fill="#f4ead8" font-family="Arial, sans-serif" font-size="16" letter-spacing="4">MAKE IT HARD TO FORGET.</text>
+</svg>

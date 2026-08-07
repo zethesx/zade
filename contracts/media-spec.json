@@ -1,0 +1,7 @@
+{
+  "id": "contact-lumen",
+  "variants": [
+    {
+      "slotId":"contact-video-desktop","target":"contact section background","width":1600,"height":1000,"assetId":"lumen.mp4","assetType":"video","intrinsicDimensions":{"width":1600,"height":1000},"objectFit":"cover","objectPosition":"50% 50%","subjectSafe":{"x":0.58,"y":0.12,"width":0.32,"height":0.72},"textSafe":{"x":0.04,"y":0.08,"width":0.42,"height":0.76},"cropSafe":{"x":0.06,"y":0.08,"width":0.88,"height":0.84},"focalPoint":{"x":0.72,"y":0.48},"criticalSubjectType":"decorative motion field","criticalSubject":{"x":0.58,"y":0.12,"width":0.32,"height":0.72},"minimumVisibleSubjectRatio":0.7,"fallbackAsset":"lumen-poster.svg","failureBehavior":"Keep the cobalt fallback visible with the contact copy and CTA in normal flow; respect reduced motion by hiding the video element.","approvedCropPlan":"Center crop on desktop; centered crop on mobile with text-safe left side maintained by the dark overlay."}
+  ]
+}

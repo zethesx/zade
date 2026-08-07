@@ -1,0 +1,7 @@
+{
+  "decisions":[
+    {"id":"zade-direction","authorityType":"approved-project-direction","sourceId":"references/visual-taste-memory.md","decision":"Use signal / pulse language across typography, color chapters and interaction feedback.","scope":"project"},
+    {"id":"zade-hero","authorityType":"user","sourceId":"architecture/design-authority.md","decision":"Use a kinetic, oversized typographic hero with a clear work CTA and a memorable signal object.","scope":"hero"},
+    {"id":"zade-media","authorityType":"supplied-reference","sourceId":"architecture/media-composition-contract.md","decision":"Use the supplied video in the final contact section with a poster and reduced-motion fallback.","scope":"contact"}
+  ]
+}

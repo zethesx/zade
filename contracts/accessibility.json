@@ -1,0 +1,10 @@
+{
+  "semanticOrder":true,
+  "headingOrder":true,
+  "keyboardReachability":true,
+  "focusVisibility":true,
+  "accessibleNames":true,
+  "contrastChecked":true,
+  "contrastTool":"declared token review plus local Playwright focus checks",
+  "reducedMotion":true
+}

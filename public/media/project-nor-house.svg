@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#e9d8ae"/>
+  <rect width="1600" height="104" fill="#f8f0dc"/>
+  <text x="68" y="64" fill="#181717" font-family="Arial Narrow, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="2">NOR / HOUSE</text>
+  <text x="1314" y="60" fill="#181717" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">OBJECTS / SPACES / LIGHT</text>
+  <path d="M0 724h1600" stroke="#181717" stroke-width="2" opacity=".22"/>
+  <path d="M160 724V280h730v444M890 724V228h520v496M1410 724V364h135v360" fill="none" stroke="#181717" stroke-width="4"/>
+  <path d="M220 724V338h510v386M730 724V415h160" fill="#d0b679" stroke="#181717" stroke-width="4"/>
+  <path d="M206 340h550v-44H206z" fill="#f8f0dc" stroke="#181717" stroke-width="4"/>
+  <path d="M1010 724V307l190-78 190 78v417" fill="#c3a469" stroke="#181717" stroke-width="4"/>
+  <path d="M1090 724V379h220v345" fill="#f8f0dc" stroke="#181717" stroke-width="4"/>
+  <circle cx="1178" cy="502" r="102" fill="#f0dfb5" stroke="#181717" stroke-width="4"/>
+  <path d="M1054 504h247M1178 380v246" stroke="#181717" stroke-width="2" opacity=".5"/>
+  <path d="M0 724h1600v176H0z" fill="#181717"/>
+  <text x="68" y="834" fill="#e9d8ae" font-family="Arial Narrow, Arial, sans-serif" font-size="92" font-weight="800" letter-spacing="-5">ROOMS WITH A POINT OF VIEW.</text>
+  <text x="1420" y="837" fill="#e9d8ae" font-family="Arial, sans-serif" font-size="16" letter-spacing="2">N / 01</text>
+</svg>

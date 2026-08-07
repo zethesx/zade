@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#3159b8"/>
+  <path d="M0 0h1600v900H0z" fill="none" stroke="#e8efcf" stroke-width="2" opacity=".4"/>
+  <g fill="none" stroke="#e8efcf" stroke-width="2" opacity=".45">
+    <path d="M-40 744c178-98 201-271 383-302s227 102 371 31 185-260 352-232 233 161 475 18"/>
+    <path d="M-10 786c174-82 215-236 389-270s231 102 366 27 188-246 344-220 240 153 457 13"/>
+    <path d="M-20 828c190-69 223-198 402-239s227 87 345 13 180-226 332-201 255 138 454 12"/>
+    <path d="M1010 0 960 900M1170 0l-62 900M1330 0l-76 900" opacity=".3"/>
+  </g>
+  <rect x="74" y="48" width="1452" height="804" fill="none" stroke="#e8efcf" stroke-width="3"/>
+  <text x="116" y="132" fill="#e8efcf" font-family="Arial, sans-serif" font-size="17" letter-spacing="4">ROVE / FIELD NOTES</text>
+  <text x="116" y="356" fill="#f0b84f" font-family="Arial Narrow, Arial, sans-serif" font-size="168" font-weight="800" letter-spacing="-10">GO SOME</text>
+  <text x="116" y="514" fill="#f0b84f" font-family="Arial Narrow, Arial, sans-serif" font-size="168" font-weight="800" letter-spacing="-10">WHERE.</text>
+  <text x="120" y="580" fill="#e8efcf" font-family="Arial, sans-serif" font-size="15" letter-spacing="3">A TACTILE GUIDE TO THE PLACES HIDING IN PLAIN SIGHT.</text>
+  <circle cx="1218" cy="420" r="135" fill="#e76f4e"/>
+  <path d="m1169 420 49-84 49 84-49 84z" fill="#3159b8" stroke="#e8efcf" stroke-width="3"/>
+  <path d="M1218 336v168M1134 420h168" stroke="#e8efcf" stroke-width="2"/>
+  <text x="1118" y="684" fill="#e8efcf" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">N 54 / E 009</text>
+  <text x="1118" y="722" fill="#e8efcf" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">A GUIDE TO THE UNEXPECTED</text>
+</svg>

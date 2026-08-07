@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f6dc36"/>
+  <text x="62" y="64" fill="#171717" font-family="Arial, sans-serif" font-size="15" letter-spacing="3">REVERB / LEDGER</text>
+  <text x="1318" y="64" fill="#171717" font-family="Arial, sans-serif" font-size="15" letter-spacing="3">PRODUCT / 2026</text>
+  <path d="M62 105h1475" stroke="#171717" stroke-width="2" opacity=".55"/>
+  <text x="62" y="360" fill="#171717" font-family="Arial Narrow, Arial, sans-serif" font-size="236" font-weight="800" letter-spacing="-16">EUR 4,820</text>
+  <text x="74" y="418" fill="#171717" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">YOUR MONEY HAS A RHYTHM.</text>
+  <g fill="none" stroke="#171717" stroke-width="3">
+    <path d="M85 636c87-30 127-117 202-75s113 137 193 90 80-151 183-102 145 135 235 80 131-112 216-61 94 126 182 81"/>
+    <path d="M85 672h1312" stroke-dasharray="4 11" opacity=".4"/>
+  </g>
+  <circle cx="1146" cy="549" r="14" fill="#3159b8"/><circle cx="1334" cy="566" r="14" fill="#e76f4e"/>
+  <rect x="1242" y="154" width="264" height="105" fill="#171717"/>
+  <text x="1265" y="188" fill="#f6dc36" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">LAST MOVE</text>
+  <text x="1265" y="230" fill="#f4ead8" font-family="Arial Narrow, Arial, sans-serif" font-size="38" font-weight="800">+ EUR 240.00</text>
+  <text x="62" y="824" fill="#171717" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">A NEW FINANCIAL INTERFACE FOR PEOPLE WHO WANT MORE FROM A NUMBER.</text>
+</svg>

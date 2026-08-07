@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#d8f046"/>
+  <rect x="42" y="42" width="1516" height="816" fill="none" stroke="#181717" stroke-width="3"/>
+  <text x="78" y="105" fill="#181717" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">KITE / INTELLIGENCE</text>
+  <text x="1388" y="105" fill="#181717" font-family="Consolas, monospace" font-size="13" letter-spacing="2">SYSTEM LIVE</text>
+  <text x="78" y="318" fill="#181717" font-family="Arial Narrow, Arial, sans-serif" font-size="166" font-weight="800" letter-spacing="-10">THINK</text>
+  <text x="78" y="454" fill="#181717" font-family="Arial Narrow, Arial, sans-serif" font-size="166" font-weight="800" letter-spacing="-10">AHEAD.</text>
+  <text x="84" y="526" fill="#181717" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">DECISIONS, WITH A CLEARER SIGNAL.</text>
+  <path d="M790 720C880 690 900 548 1012 560s118 86 212-22 86-45 165-109" fill="none" stroke="#181717" stroke-width="4"/>
+  <path d="M790 760h700M790 660h700M790 560h700" stroke="#181717" stroke-width="1" opacity=".22"/>
+  <circle cx="1012" cy="560" r="9" fill="#181717"/>
+  <circle cx="1224" cy="538" r="9" fill="#181717"/>
+  <circle cx="1389" cy="429" r="9" fill="#181717"/>
+  <rect x="1150" y="174" width="280" height="154" fill="#181717"/>
+  <text x="1180" y="214" fill="#d8f046" font-family="Consolas, monospace" font-size="12" letter-spacing="2">CURRENT SIGNAL</text>
+  <text x="1180" y="278" fill="#f5e9d8" font-family="Arial Narrow, Arial, sans-serif" font-size="52" font-weight="700">+03.42</text>
+  <path d="M1180 298h204" stroke="#d8f046" stroke-width="2"/>
+  <text x="80" y="812" fill="#181717" font-family="Consolas, monospace" font-size="13" letter-spacing="2">MAKE THE NEXT CALL / 2025</text>
+</svg>

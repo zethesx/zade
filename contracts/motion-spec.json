@@ -1,0 +1,20 @@
+{
+  "enabledByDefault": true,
+  "medium": "css",
+  "authoritySource": "user-brief: energetic, bold, highly animated portfolio with accessibility and performance constraints",
+  "valueStatement": "Motion gives Zade Studios its pulse: it assembles the entry, guides the work sequence, adds tactile feedback to links and keeps the final video chapter feeling like a handoff rather than a dead end.",
+  "budgets": {"jsKb": 42,"mediaMb": 20,"textureMb": 0.2,"drawCalls": 0,"dpr": 2,"fps": 60,"cls": 0.05},
+  "reducedMotion": {"supported": true,"settledState":"The intro keeps a static ZS mark, completed ring and readable status while the timed handoff uses a soft short panel transition; essential copy, links, project previews and CTA surfaces remain visible, video is replaced by poster fallback and transforms collapse."},
+  "noJsState": {"criticalContentVisible": true},
+  "mobileFallback": {"provided": true,"mode":"Linear project stack, visible visit labels, no custom cursor, reduced orbital decoration and poster-capable contact media."},
+  "offscreenPause": true,
+  "hiddenTabPause": true,
+  "assetFailure": "The contact section keeps a cobalt fallback color and poster image if lumen.mp4 cannot load; project SVGs remain local and independently addressable.",
+  "contextLoss": "No canvas or WebGL context is used.",
+  "cleanup": "Pointer and scroll listeners are passive and removed on unmount; rAF handles are cancelled on cleanup.",
+  "motionIntent": {"kind":"signal-to-pulse","authority":"user-brief + project-direction","summary":"Use one coherent signal language: a measured three-second ZS intro assembles the handoff, then a singular downward curtain reveals the page; scanline and marquee carry the hero rhythm, project tilt stays bounded and event-driven, buttons remain tactile, and the final video chapter feels like a handoff rather than a dead end."},
+  "signatureInteraction": {"name":"ZS signal curtain","purpose":"Turns the opening state into a brand-authored threshold and reveals the homepage with a confident downward handoff.","trigger":"Initial page load; the progress ring completes over a fixed three-second intro before the overlay exits once.","settledState":"The overlay is removed from hit testing and the normal homepage remains usable; the Visit project label stays available on focus and touch."},
+  "sectionRevealStrategy": {"initialState":"Content is present in normal flow; the full-screen ZS overlay masks the first frame with a centered mark, status line and timed ring.","trigger":"The controlled intro timer reaches three seconds.","transition":"The dashed progress ring completes, then the overlay translates downward once as a single curtain with a restrained opacity settle; the settled state preserves the exited transform to prevent a reverse transition.","settledState":"Normal document content remains usable with or without animation."},
+  "sectionTransitionStrategy": {"strategy":"Use color-block chapter handoffs: citrus hero to ink energy strip to paper work to cobalt studio to paper manifesto to video contact.","repeatOrStopRule":"Continuous marquee/orbit stop under reduced motion; project tilt is event-driven and does not run continuously."},
+  "noMotionJustification": null
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#e76f4e"/>
+  <rect x="42" y="42" width="1516" height="816" fill="none" stroke="#191818" stroke-width="3"/>
+  <text x="78" y="104" fill="#191818" font-family="Arial, sans-serif" font-size="17" letter-spacing="4">MALU / ATELIER</text>
+  <text x="1320" y="104" fill="#191818" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">COLLECTION 26</text>
+  <text x="78" y="304" fill="#191818" font-family="Arial Narrow, Arial, sans-serif" font-size="180" font-weight="800" letter-spacing="-10">MALU</text>
+  <text x="82" y="380" fill="#191818" font-family="Arial, sans-serif" font-size="16" letter-spacing="3">SOFT TAILORING / SHARP NAVIGATION</text>
+  <path d="M110 705h420" stroke="#191818" stroke-width="2"/>
+  <text x="110" y="748" fill="#191818" font-family="Arial, sans-serif" font-size="20" letter-spacing="2">EXPLORE THE CUT</text>
+  <path d="M472 738h50l-16-16m16 16-16 16" fill="none" stroke="#191818" stroke-width="3"/>
+  <path d="M1000 760V360l118-118 118 118v400" fill="#f5e9d8" stroke="#191818" stroke-width="4"/>
+  <path d="M1236 760V330l112-104 112 104v430" fill="#d4c0ae" stroke="#191818" stroke-width="4"/>
+  <path d="M1177 425 1270 246l92 179-29 295h-305z" fill="#191818"/>
+  <path d="M1177 425 1110 565l22 18 80-60 53 231h-58l-28-205-48 33-38-27 80-155z" fill="#d8b9a9"/>
+  <path d="M1362 425 1428 565l-22 18-80-60-53 231h58l28-205 48 33 38-27-80-155z" fill="#d8b9a9"/>
+  <circle cx="1270" cy="202" r="34" fill="#191818"/>
+  <path d="M1270 236v64M1242 275l-50 62M1298 275l50 62" stroke="#191818" stroke-width="5" stroke-linecap="round"/>
+  <text x="1328" y="820" fill="#191818" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">MALU ATELIER / 01—06</text>
+</svg>
