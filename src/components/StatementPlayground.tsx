@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { site } from '../data/site'
 
 export function StatementPlayground() {
   const playgroundRef = useRef<HTMLDivElement | null>(null)
@@ -72,7 +73,7 @@ export function StatementPlayground() {
         </svg>
         <div className="playground__cursor" />
         <div className="playground__core">
-          <span className="playground__core-mark">ZS</span>
+          <img className="playground__core-mark" src={site.brandMark} alt="" />
           <span className="playground__core-label">Move / with intent</span>
         </div>
         <span className="playground__label playground__label--top">06° / 52° / 01</span>

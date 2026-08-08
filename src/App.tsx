@@ -147,7 +147,7 @@ function App() {
               <circle className="entry__ring-progress" cx="160" cy="160" r="132" />
               <circle className="entry__ring-detail" cx="160" cy="160" r="145" />
             </svg>
-            <span className="entry__word">ZS</span>
+            <img className="entry__word" src={site.brandMark} alt="" />
             <span className="entry__ring-index">/ 04</span>
           </div>
           <div
@@ -166,7 +166,7 @@ function App() {
 
       <header className="site-header">
         <a className="site-header__logo" href="#top" aria-label="Zade Studios home" onClick={closeMenu}>
-          <Logo />
+          <Logo compact />
         </a>
         <nav id="primary-navigation" className={`site-nav ${menuOpen ? 'is-open' : ''}`} aria-label="Primary navigation">
           {site.nav.map((item, index) => (
@@ -190,6 +190,12 @@ function App() {
       <main id="top" data-critical-content>
         <section className="hero" data-section="hero" data-hero aria-labelledby="hero-title">
           <div className="hero__field">
+            <div className="hero__paint hero__paint--back" aria-hidden="true">
+              <svg className="hero__paint-svg" viewBox="0 0 1200 720" preserveAspectRatio="none" focusable="false">
+                <path className="hero__paint-stroke hero__paint-stroke--pink" d="M-70 126 C 140 72 310 196 508 142 S 888 80 1270 170" />
+                <path className="hero__paint-stroke hero__paint-stroke--teal" d="M-90 408 C 150 330 334 468 524 390 S 854 322 1270 426" />
+              </svg>
+            </div>
             <div className="hero__copy">
               <h1 id="hero-title" className="hero__title" data-headline>
                 <span className="hero__line hero__line--one" data-headline-segment>WE MAKE</span>
@@ -204,12 +210,18 @@ function App() {
                 </a>
               </div>
             </div>
+            <div className="hero__paint hero__paint--front" aria-hidden="true">
+              <svg className="hero__paint-svg" viewBox="0 0 1200 720" preserveAspectRatio="none" focusable="false">
+                <path className="hero__paint-stroke hero__paint-stroke--pink" d="M410 548 C 540 514 655 562 770 522 S 1010 478 1160 514" />
+                <path className="hero__paint-stroke hero__paint-stroke--teal" d="M26 522 C 120 492 194 518 266 494" />
+              </svg>
+            </div>
             <div className="hero__signal" data-hero-visual aria-hidden="true">
               <div className="hero__signal-ring hero__signal-ring--outer" />
               <div className="hero__signal-ring hero__signal-ring--inner" />
               <div className="hero__signal-orbit hero__signal-orbit--one"><span /></div>
               <div className="hero__signal-orbit hero__signal-orbit--two"><span /></div>
-              <div className="hero__signal-core">ZS</div>
+              <div className="hero__signal-core"><img className="hero__signal-mark" src={site.brandMark} alt="" /></div>
               <span className="hero__signal-label hero__signal-label--top">signal / 01</span>
             </div>
           </div>

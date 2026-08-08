@@ -1,6 +1,7 @@
 export const site = {
   brand: 'Zade Studios',
   shortMark: 'ZS',
+  brandMark: '/media/zade-studios-mark.png',
   email: 'hello@zadestudios.com',
   location: 'Independent studio · Europe / everywhere',
   availability: 'Taking on a few loud ideas for 2026',
