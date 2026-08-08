@@ -194,9 +194,9 @@ function App() {
             <div className="hero__paint hero__paint--back" aria-hidden="true">
               <svg className="hero__paint-svg" viewBox="0 0 1200 720" preserveAspectRatio="none" focusable="false">
                 <defs>
-                  <path id="hero-paint-teal-lower" pathLength="1000" d="M-52 500 C 75 430 208 500 350 448 S 430 424 492 442" />
-                  <path id="hero-paint-teal-signal" pathLength="1000" d="M760 300 C 870 238 1005 284 1192 216" />
-                  <path id="hero-paint-pink-make" pathLength="1000" d="M-40 144 C 105 95 230 166 354 126 S 520 92 690 136" />
+                  <path id="hero-paint-teal-lower" d="M-52 500 C 75 430 208 500 350 448 S 430 424 492 442" />
+                  <path id="hero-paint-teal-signal" d="M760 300 C 870 238 1005 284 1192 216" />
+                  <path id="hero-paint-pink-make" d="M-40 144 C 105 95 230 166 354 126 S 520 92 690 136" />
                 </defs>
                 <use href="#hero-paint-teal-lower" className="hero__paint-stroke hero__paint-stroke--teal hero__paint-stroke--lower" />
                 <use href="#hero-paint-teal-signal" className="hero__paint-stroke hero__paint-stroke--teal hero__paint-stroke--signal" />
@@ -219,9 +219,23 @@ function App() {
             </div>
             <div className="hero__paint hero__paint--front" aria-hidden="true">
               <svg className="hero__paint-svg" viewBox="0 0 1200 720" preserveAspectRatio="none" focusable="false">
-                <use href="#hero-paint-pink-make" pathLength="1000" className="hero__paint-front-stroke hero__paint-front-stroke--pink hero__paint-front-stroke--make" />
-                <use href="#hero-paint-teal-lower" pathLength="1000" className="hero__paint-front-stroke hero__paint-front-stroke--teal hero__paint-front-stroke--lower" />
-                <use href="#hero-paint-teal-signal" pathLength="1000" className="hero__paint-front-stroke hero__paint-front-stroke--teal hero__paint-front-stroke--signal" />
+                <defs>
+                  <linearGradient id="hero-paint-mask-pink-gradient" gradientUnits="userSpaceOnUse" x1="-60" y1="0" x2="760" y2="0">
+                    <stop offset="0%" stopColor="#000" /><stop offset="8%" stopColor="#000" /><stop offset="13%" stopColor="#fff" /><stop offset="27%" stopColor="#fff" /><stop offset="32%" stopColor="#000" /><stop offset="52%" stopColor="#000" /><stop offset="57%" stopColor="#fff" /><stop offset="69%" stopColor="#fff" /><stop offset="74%" stopColor="#000" /><stop offset="100%" stopColor="#000" />
+                  </linearGradient>
+                  <linearGradient id="hero-paint-mask-lower-gradient" gradientUnits="userSpaceOnUse" x1="-100" y1="0" x2="650" y2="0">
+                    <stop offset="0%" stopColor="#000" /><stop offset="10%" stopColor="#000" /><stop offset="16%" stopColor="#fff" /><stop offset="30%" stopColor="#fff" /><stop offset="35%" stopColor="#000" /><stop offset="56%" stopColor="#000" /><stop offset="64%" stopColor="#fff" /><stop offset="77%" stopColor="#fff" /><stop offset="82%" stopColor="#000" /><stop offset="100%" stopColor="#000" />
+                  </linearGradient>
+                  <linearGradient id="hero-paint-mask-signal-gradient" gradientUnits="userSpaceOnUse" x1="650" y1="0" x2="1250" y2="0">
+                    <stop offset="0%" stopColor="#000" /><stop offset="8%" stopColor="#000" /><stop offset="16%" stopColor="#fff" /><stop offset="30%" stopColor="#fff" /><stop offset="36%" stopColor="#000" /><stop offset="53%" stopColor="#000" /><stop offset="62%" stopColor="#fff" /><stop offset="76%" stopColor="#fff" /><stop offset="82%" stopColor="#000" /><stop offset="100%" stopColor="#000" />
+                  </linearGradient>
+                  <mask id="hero-paint-mask-pink" maskUnits="userSpaceOnUse" mask-type="luminance" x="-60" y="0" width="820" height="720"><rect x="-60" y="0" width="820" height="720" fill="url(#hero-paint-mask-pink-gradient)" /></mask>
+                  <mask id="hero-paint-mask-lower" maskUnits="userSpaceOnUse" mask-type="luminance" x="-100" y="0" width="750" height="720"><rect x="-100" y="0" width="750" height="720" fill="url(#hero-paint-mask-lower-gradient)" /></mask>
+                  <mask id="hero-paint-mask-signal" maskUnits="userSpaceOnUse" mask-type="luminance" x="650" y="0" width="600" height="720"><rect x="650" y="0" width="600" height="720" fill="url(#hero-paint-mask-signal-gradient)" /></mask>
+                </defs>
+                <use href="#hero-paint-pink-make" mask="url(#hero-paint-mask-pink)" className="hero__paint-front-stroke hero__paint-front-stroke--pink hero__paint-front-stroke--make" />
+                <use href="#hero-paint-teal-lower" mask="url(#hero-paint-mask-lower)" className="hero__paint-front-stroke hero__paint-front-stroke--teal hero__paint-front-stroke--lower" />
+                <use href="#hero-paint-teal-signal" mask="url(#hero-paint-mask-signal)" className="hero__paint-front-stroke hero__paint-front-stroke--teal hero__paint-front-stroke--signal" />
               </svg>
             </div>
             <div className="hero__signal" data-hero-visual aria-hidden="true">

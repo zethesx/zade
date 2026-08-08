@@ -15,17 +15,17 @@ export type Project = {
 // Replace preview paths and URLs here when the real project destinations are ready.
 export const projects: Project[] = [
   {
-    id: 'nor-house',
+    id: 'dionysia',
     index: '01',
-    title: 'NØR House',
-    type: 'Architecture website',
+    title: 'Dionysia',
+    type: 'Theatre / cultural website',
     year: '2026',
-    description: 'A sun-cut digital home for rooms with a point of view.',
-    preview: '/media/project-nor-house.svg',
-    previewPosition: 'left center',
-    url: 'https://example.com/zade-nor-house',
-    accent: 'var(--color-sand)',
-    alt: 'Architecture website hero for NØR House with oversized typography, warm rooms and geometric light.',
+    description: 'A stage for beautiful disasters, old myths, and the people who still believe in an entrance.',
+    preview: '/media/project-dionysia.webp',
+    previewPosition: 'center',
+    url: 'https://example.com/zade-dionysia',
+    accent: 'var(--color-coral)',
+    alt: 'Dionysia theatre website hero with a fractured marble sculpture, burgundy curtains and oversized editorial typography.',
   },
   {
     id: 'malu-atelier',
