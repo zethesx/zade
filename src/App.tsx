@@ -190,15 +190,13 @@ function App() {
       <main id="top" data-critical-content>
         <section className="hero" data-section="hero" data-hero aria-labelledby="hero-title">
           <div className="hero__field">
-            {/* Three logical gestures: two teal, one pink. Foreground uses are masked fragments of the same paths. */}
+            {/* Three logical gestures: two teal, one pink. Foreground windows reuse the same continuous paths. */}
             <div className="hero__paint hero__paint--back" aria-hidden="true">
               <svg className="hero__paint-svg" viewBox="0 0 1200 720" preserveAspectRatio="none" focusable="false">
                 <defs>
-                  <path id="hero-paint-teal-lower" d="M-52 500 C 75 430 208 500 350 448 S 430 424 492 442" />
-                  <path id="hero-paint-teal-signal" d="M760 300 C 870 238 1005 284 1192 216" />
-                  <path id="hero-paint-pink-make" d="M-40 144 C 105 95 230 166 354 126 S 520 92 690 136" />
-                  <clipPath id="hero-paint-front-make"><path d="M510 72 C 570 75 650 80 705 80 L700 226 L510 226 Z" /></clipPath>
-                  <clipPath id="hero-paint-front-lower"><path d="M180 420 C 330 402 470 400 560 420 L560 510 L180 520 Z" /></clipPath>
+                  <path id="hero-paint-teal-lower" pathLength="1000" d="M-52 500 C 75 430 208 500 350 448 S 430 424 492 442" />
+                  <path id="hero-paint-teal-signal" pathLength="1000" d="M760 300 C 870 238 1005 284 1192 216" />
+                  <path id="hero-paint-pink-make" pathLength="1000" d="M-40 144 C 105 95 230 166 354 126 S 520 92 690 136" />
                 </defs>
                 <use href="#hero-paint-teal-lower" className="hero__paint-stroke hero__paint-stroke--teal hero__paint-stroke--lower" />
                 <use href="#hero-paint-teal-signal" className="hero__paint-stroke hero__paint-stroke--teal hero__paint-stroke--signal" />
@@ -221,8 +219,9 @@ function App() {
             </div>
             <div className="hero__paint hero__paint--front" aria-hidden="true">
               <svg className="hero__paint-svg" viewBox="0 0 1200 720" preserveAspectRatio="none" focusable="false">
-                <use href="#hero-paint-pink-make" className="hero__paint-fragment hero__paint-fragment--pink hero__paint-fragment--make" clipPath="url(#hero-paint-front-make)" />
-                <use href="#hero-paint-teal-lower" className="hero__paint-fragment hero__paint-fragment--teal hero__paint-fragment--lower" clipPath="url(#hero-paint-front-lower)" />
+                <use href="#hero-paint-pink-make" pathLength="1000" className="hero__paint-front-stroke hero__paint-front-stroke--pink hero__paint-front-stroke--make" />
+                <use href="#hero-paint-teal-lower" pathLength="1000" className="hero__paint-front-stroke hero__paint-front-stroke--teal hero__paint-front-stroke--lower" />
+                <use href="#hero-paint-teal-signal" pathLength="1000" className="hero__paint-front-stroke hero__paint-front-stroke--teal hero__paint-front-stroke--signal" />
               </svg>
             </div>
             <div className="hero__signal" data-hero-visual aria-hidden="true">

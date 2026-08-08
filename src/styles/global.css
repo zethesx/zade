@@ -143,12 +143,12 @@ section[id] { scroll-margin-top: 5.5rem; }
 .hero__paint-stroke--teal { stroke: #24d8cf; opacity: 0.92; animation: hero-paint-drift-teal 13s ease-in-out -2.4s infinite; }
 .hero__paint--back .hero__paint-stroke--pink { opacity: 0.86; }
 .hero__paint--back .hero__paint-stroke--teal { opacity: 0.74; }
-.hero__paint-fragment { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 19; transform-box: fill-box; transform-origin: center; }
-.hero__paint-fragment--pink { stroke: #f24b9f; opacity: 0.94; animation: hero-paint-drift-pink 9s ease-in-out infinite -1.2s; }
-.hero__paint-fragment--teal { stroke: #24d8cf; opacity: 0.92; animation: hero-paint-drift-teal 12s ease-in-out infinite -4.1s; }
-.hero__paint-stroke--lower { animation-delay: -1.8s; }
-.hero__paint-stroke--signal { animation-delay: -5.2s; }
-.hero__paint-stroke--make { animation-delay: -3.6s; }
+.hero__paint-front-stroke { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 48; transform-box: fill-box; transform-origin: center; }
+.hero__paint-front-stroke--pink { stroke: #f24b9f; opacity: 0.86; stroke-dasharray: 82 126 44 210 58 480; animation: hero-paint-drift-pink 11s ease-in-out infinite; }
+.hero__paint-front-stroke--teal { stroke: #24d8cf; opacity: 0.78; animation: hero-paint-drift-teal 13s ease-in-out -2.4s infinite; }
+.hero__paint-front-stroke--lower { stroke-dasharray: 70 154 38 180 52 506; animation-delay: -1.8s; }
+.hero__paint-front-stroke--signal { stroke-dasharray: 42 132 34 188 46 558; animation-delay: -5.2s; }
+.hero__paint-front-stroke--make { animation-delay: -3.6s; }
 .hero__copy { position: relative; z-index: 2; padding-right: clamp(0.6rem, 2vw, 2.4rem); }
 .eyebrow { margin: 0; font: 700 var(--text-xs)/1.2 var(--font-mono); letter-spacing: 0.09em; text-transform: uppercase; }
 .hero__title { max-width: 11ch; margin: 0; font: 900 var(--text-display)/0.78 var(--font-display); letter-spacing: -0.055em; text-transform: uppercase; text-wrap: balance; }
@@ -516,7 +516,7 @@ section[id] { scroll-margin-top: 5.5rem; }
 
 @media (max-width: 700px) {
   .hero__paint-stroke { stroke-width: 26; }
-  .hero__paint--front .hero__paint-fragment { stroke-width: 16; }
+  .hero__paint--front .hero__paint-front-stroke { stroke-width: 26; }
   .hero__paint--back .hero__paint-stroke--pink { opacity: 0.7; }
   .hero__paint--back .hero__paint-stroke--teal { opacity: 0.6; }
   .hero__paint--front { z-index: 1; opacity: 0.72; }
@@ -537,5 +537,5 @@ section[id] { scroll-margin-top: 5.5rem; }
 
 @media (prefers-reduced-motion: reduce) {
   .hero__paint,
-  .hero__paint-stroke, .hero__paint-fragment { transition: none; animation: none; }
+  .hero__paint-stroke, .hero__paint-front-stroke { transition: none; animation: none; }
 }
