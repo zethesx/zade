@@ -22,7 +22,9 @@ npm run build
 - Email, navigation, availability and social links: `src/data/site.ts`
 - Project preview artwork: replace the SVG files in `public/media/` and keep the paths in `src/data/projects.ts` aligned.
 - Contact video: replace `public/media/lumen.mp4`. The page uses it as muted, looping, inline decorative media and falls back to `public/media/lumen-poster.svg` plus a cobalt field when unavailable or when reduced motion is requested.
-- Social preview and favicon: `public/og-zade.svg` and `public/favicon.svg`.
+- Social preview: `public/og-zade.svg`.
+- Official logo originals: `public/media/ZADE STUDIOS LOGO.psd`, `public/media/ZADE STUDIOS LOGO.svg` and `public/media/ZADE STUDIOS LOGO.png`. The PSD is the master source; the supplied SVG contains embedded raster artwork, so the 3600px PNG is the runtime source.
+- Derived runtime brand assets: `public/media/zade-studios-mark.png` (symbol), `public/media/zade-studios-wordmark.png` (full stacked logo) and `public/media/zade-studios-favicon.png` (128px favicon). The supplied originals remain unchanged.
 
 ## Project shape
 

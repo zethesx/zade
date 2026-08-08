@@ -96,10 +96,13 @@ section[id] { scroll-margin-top: 5.5rem; }
 }
 .site-header__logo { display: inline-flex; min-height: 40px; align-items: center; }
 .logo { display: inline-flex; align-items: center; gap: 0.65rem; color: currentColor; }
-.logo__mark { display: grid; place-items: center; width: 2rem; height: 2rem; border: 1px solid currentColor; border-radius: 50%; font: 700 0.65rem/1 var(--font-mono); letter-spacing: -0.08em; transition: transform var(--dur-fast) var(--ease-out); }
+.logo__mark { display: grid; place-items: center; width: 2rem; height: 2rem; overflow: hidden; border: 1px solid currentColor; border-radius: 50%; transition: transform var(--dur-fast) var(--ease-out); }
+.logo__mark img { display: block; width: 1.45rem; height: 1.45rem; object-fit: contain; }
 .logo:hover .logo__mark { transform: rotate(-18deg) scale(1.06); }
 .logo__name { display: flex; flex-direction: column; font: 800 0.68rem/0.9 var(--font-mono); letter-spacing: 0.045em; text-transform: uppercase; }
 .logo__name span:last-child { opacity: 0.55; }
+.site-footer__brand { align-self: end; }
+.site-footer__wordmark { display: block; width: clamp(5.25rem, 7vw, 7rem); height: auto; filter: brightness(0) invert(1); }
 .site-nav { display: flex; align-items: center; gap: clamp(1rem, 2.8vw, 3rem); margin-left: auto; margin-right: clamp(1rem, 3vw, 3.25rem); }
 .site-nav a { display: inline-flex; align-items: baseline; gap: 0.45rem; min-height: 40px; padding: 0.65rem 0; font-size: 0.77rem; font-weight: 700; letter-spacing: -0.02em; }
 .site-nav a span:last-child { position: relative; }
@@ -397,6 +400,7 @@ section[id] { scroll-margin-top: 5.5rem; }
   .entry__status { font-size: 0.7rem; }
   .site-header { min-height: 4.5rem; padding: 1rem 1.25rem; }
   .site-header__logo .logo__name { display: none; }
+  .site-footer__wordmark { width: 5.5rem; }
   .site-nav { position: absolute; top: 4.5rem; right: 1rem; left: 1rem; display: flex; flex-direction: column; align-items: stretch; gap: 0; margin: 0; padding: 0.45rem 1rem; border: 1px solid color-mix(in oklch, var(--color-white) 30%, transparent); color: var(--color-paper); background: var(--color-ink); opacity: 0; transform: translateY(-0.6rem); pointer-events: none; transition: transform var(--dur-fast) var(--ease-out), opacity var(--dur-fast) var(--ease-out); }
   .site-nav.is-open { opacity: 1; transform: translateY(0); pointer-events: auto; }
   .site-nav a { justify-content: space-between; min-height: 48px; border-bottom: 1px solid color-mix(in oklch, var(--color-paper) 18%, transparent); }

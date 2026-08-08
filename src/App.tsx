@@ -312,7 +312,7 @@ function App() {
               </div>
             </div>
             <footer className="site-footer">
-              <Logo inverse />
+              <div className="site-footer__brand"><img className="site-footer__wordmark" src="/media/zade-studios-wordmark.png" alt="Zade Studios" /></div>
               <div className="site-footer__links">
                 {site.socials.map((social) => <a key={social.label} href={social.href} target="_blank" rel="noreferrer noopener">{social.label}<Icon name="arrowUp" size={13} /></a>)}
                 <a href="#top">Back to top <Icon name="arrowUp" size={13} /></a>
