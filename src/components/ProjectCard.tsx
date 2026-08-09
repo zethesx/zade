@@ -46,6 +46,8 @@ export function ProjectCard({ project }: { project: Project }) {
     cardRef.current?.style.setProperty('--tilt-y', '0deg')
   }
 
+  const linkAttributes = project.external ? { target: '_blank', rel: 'noopener noreferrer' } : {}
+
   return (
     <article
       className={`project${isReverse ? ' project--reverse' : ''}`}
@@ -64,7 +66,7 @@ export function ProjectCard({ project }: { project: Project }) {
           onPointerLeave={resetPointer}
           onPointerCancel={resetPointer}
         >
-          <a className="project__preview-link" href={project.url} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${project.title} website`}>
+          <a className="project__preview-link" href={project.href} {...linkAttributes} aria-label={`Visit ${project.title} website`}>
             <div className="project__visual" data-pointer-active="false">
               <img
                 src={project.preview}
@@ -74,7 +76,7 @@ export function ProjectCard({ project }: { project: Project }) {
               />
             </div>
           </a>
-          <a className="project__visit" href={project.url} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${project.title} website`}>
+          <a className="project__visit" href={project.href} {...linkAttributes} aria-label={`Visit ${project.title} website`}>
             <span>Visit website</span><Icon name="arrowUp" size={16} />
           </a>
         </div>
@@ -84,7 +86,7 @@ export function ProjectCard({ project }: { project: Project }) {
             <p className="project__type">{project.type}</p>
             <h3>{project.title}</h3>
             <p className="project__descriptor">{project.description}</p>
-            <a className="project__external" href={project.url} target="_blank" rel="noopener noreferrer">Visit website <Icon name="arrowUp" size={14} /></a>
+            <a className="project__external" href={project.href} {...linkAttributes}>Visit website <Icon name="arrowUp" size={14} /></a>
           </div>
           <div className="project__meta">
             <div><span className="project__meta-label">Format</span><span>Website</span></div>

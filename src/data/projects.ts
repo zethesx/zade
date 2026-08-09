@@ -7,12 +7,13 @@ export type Project = {
   description: string
   preview: string
   previewPosition: string
-  url: string
+  href: string
+  external: boolean
   accent: string
   alt: string
 }
 
-// Replace preview paths and URLs here when the real project destinations are ready.
+// Project destinations stay centralized so internal and external links share one rendering contract.
 export const projects: Project[] = [
   {
     id: 'dionysia',
@@ -23,7 +24,8 @@ export const projects: Project[] = [
     description: 'A stage for beautiful disasters, old myths, and the people who still believe in an entrance.',
     preview: '/media/project-dionysia.webp',
     previewPosition: 'center',
-    url: 'https://example.com/zade-dionysia',
+    href: '/projects/dionysia',
+    external: false,
     accent: 'var(--color-coral)',
     alt: 'Dionysia theatre website hero with a fractured marble sculpture, burgundy curtains and oversized editorial typography.',
   },
@@ -36,7 +38,8 @@ export const projects: Project[] = [
     description: 'A tactile launch for a label that refuses to whisper.',
     preview: '/media/project-malu-atelier.svg',
     previewPosition: 'center 24%',
-    url: 'https://example.com/zade-malu-atelier',
+    href: 'https://example.com/zade-malu-atelier',
+    external: true,
     accent: 'var(--color-coral)',
     alt: 'Fashion website hero for MALU Atelier with a coral field, tailored silhouette and editorial labels.',
   },
@@ -49,7 +52,8 @@ export const projects: Project[] = [
     description: 'A live system map for teams making better calls, faster.',
     preview: '/media/project-kite-intelligence.svg',
     previewPosition: 'center 22%',
-    url: 'https://example.com/zade-kite-intelligence',
+    href: 'https://example.com/zade-kite-intelligence',
+    external: true,
     accent: 'var(--color-citrus)',
     alt: 'AI product website hero for Kite Intelligence with signal lines, a lime field and a live system panel.',
   },
@@ -62,7 +66,8 @@ export const projects: Project[] = [
     description: 'A tactile guide to the places hiding in plain sight.',
     preview: '/media/project-rove-field-notes.svg',
     previewPosition: 'center',
-    url: 'https://example.com/zade-rove-field-notes',
+    href: 'https://example.com/zade-rove-field-notes',
+    external: true,
     accent: 'var(--color-cobalt)',
     alt: 'Travel editorial website hero for Rove Field Notes with cobalt topography, destination type and a compass mark.',
   },
@@ -75,7 +80,8 @@ export const projects: Project[] = [
     description: 'A late-night reservation experience with a pulse under the table.',
     preview: '/media/project-supper-club.svg',
     previewPosition: 'center 62%',
-    url: 'https://example.com/zade-supper-club-29',
+    href: 'https://example.com/zade-supper-club-29',
+    external: true,
     accent: 'var(--color-pink)',
     alt: 'Hospitality website hero for Supper Club 29 with a pink room, menu typography and a graphic dining object.',
   },
@@ -88,7 +94,8 @@ export const projects: Project[] = [
     description: 'A new financial interface for people who want more from a number.',
     preview: '/media/project-reverb-ledger.svg',
     previewPosition: 'center',
-    url: 'https://example.com/zade-reverb-ledger',
+    href: 'https://example.com/zade-reverb-ledger',
+    external: true,
     accent: 'var(--color-yellow)',
     alt: 'Fintech product website hero for Reverb Ledger with a yellow field, ledger linework and a large product number.',
   },
