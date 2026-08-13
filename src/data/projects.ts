@@ -16,8 +16,22 @@ export type Project = {
 // Project destinations stay centralized so internal and external links share one rendering contract.
 export const projects: Project[] = [
   {
-    id: 'dionysia',
+    id: 'sauberei',
     index: '01',
+    title: 'Sauberei',
+    type: 'Cleaning service website',
+    year: '2026',
+    description: 'A clear, local experience for homes, offices, and the small things in between.',
+    preview: '/media/sauberei-hero.webp',
+    previewPosition: 'center',
+    href: 'https://www.sauberei.eu',
+    external: true,
+    accent: 'var(--color-cobalt)',
+    alt: 'Sauberei cleaning service website hero with dark video imagery, oversized German typography, and a clear call to action.',
+  },
+  {
+    id: 'dionysia',
+    index: '02',
     title: 'Dionysia',
     type: 'Theatre / cultural website',
     year: '2026',
@@ -31,7 +45,7 @@ export const projects: Project[] = [
   },
   {
     id: 'malu-atelier',
-    index: '02',
+    index: '03',
     title: 'MALU Atelier',
     type: 'Fashion and culture website',
     year: '2026',
@@ -45,7 +59,7 @@ export const projects: Project[] = [
   },
   {
     id: 'kite-intelligence',
-    index: '03',
+    index: '04',
     title: 'Kite Intelligence',
     type: 'AI product website',
     year: '2025',
@@ -59,7 +73,7 @@ export const projects: Project[] = [
   },
   {
     id: 'rove-field-notes',
-    index: '04',
+    index: '05',
     title: 'Rove Field Notes',
     type: 'Travel editorial website',
     year: '2026',
@@ -73,7 +87,7 @@ export const projects: Project[] = [
   },
   {
     id: 'supper-club-29',
-    index: '05',
+    index: '06',
     title: 'Supper Club 29',
     type: 'Hospitality website',
     year: '2025',
@@ -87,7 +101,7 @@ export const projects: Project[] = [
   },
   {
     id: 'reverb-ledger',
-    index: '06',
+    index: '07',
     title: 'Reverb Ledger',
     type: 'Fintech product website',
     year: '2026',

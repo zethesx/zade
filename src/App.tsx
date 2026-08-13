@@ -260,10 +260,10 @@ function App() {
         <section className="work-section" id="work" data-section="work" aria-labelledby="work-title">
           <div className="section-intro section-intro--work">
             <div>
-              <p className="eyebrow">Selected work / 01—06</p>
+              <p className="eyebrow">Selected work / 01—07</p>
               <h2 id="work-title">Websites with<br /><span>a point of view.</span></h2>
             </div>
-            <p className="section-intro__note">Six website worlds. One consistent way to see them.</p>
+            <p className="section-intro__note">Seven website worlds. One consistent way to see them.</p>
           </div>
           <div className="projects-list">
             {projects.map((project) => <ProjectCard key={project.id} project={project} />)}
