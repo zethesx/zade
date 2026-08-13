@@ -6,8 +6,8 @@ export const site = {
   location: 'Independent studio · Europe / everywhere',
   availability: 'Taking on a few loud ideas for 2026',
   socials: [
-    { label: 'Instagram', href: 'https://instagram.com/zadestudios' },
-    { label: 'LinkedIn', href: 'https://linkedin.com/company/zadestudios' },
+    { label: 'Instagram' },
+    { label: 'LinkedIn' },
   ],
   nav: [
     { label: 'Selected work', href: '#work' },

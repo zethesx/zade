@@ -250,7 +250,7 @@ function App() {
           <div className="energy-strip__rail">
             <div className="energy-strip__track">
               {[...marqueeWords, ...marqueeWords].map((word, index) => (
-                <span key={`${word}-${index}`} className="energy-strip__word">{word}<b>✳</b></span>
+                <span key={`${word}-${index}`} className="energy-strip__word">{word}<span className="energy-strip__burst" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 2.75v18.5M2.75 12h18.5M5.45 5.45l13.1 13.1M18.55 5.45 5.45 18.55" /></svg></span></span>
               ))}
             </div>
           </div>
@@ -341,7 +341,7 @@ function App() {
             <footer className="site-footer">
               <div className="site-footer__brand"><img className="site-footer__wordmark" src="/media/zade-studios-wordmark.png" alt="Zade Studios" /></div>
               <div className="site-footer__links">
-                {site.socials.map((social) => <a key={social.label} href={social.href} target="_blank" rel="noreferrer noopener">{social.label}<Icon name="arrowUp" size={13} /></a>)}
+                {site.socials.map((social) => <span key={social.label} className="site-footer__social-status"><span>{social.label}</span><span> — Coming soon</span></span>)}
                 <a href="#top">Back to top <Icon name="arrowUp" size={13} /></a>
               </div>
               <div className="site-footer__meta"><span>© {new Date().getFullYear()} Zade Studios</span><span>{site.location}</span></div>

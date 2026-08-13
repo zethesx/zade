@@ -81,7 +81,7 @@ export function ProjectCard({ project }: { project: Project }) {
           </a>
         </div>
         <div className="project__body">
-          <div className="project__index">PROJECT {project.index}</div>
+          <div className="project__index"><span>PROJECT</span>{' '}<span>{project.index}</span></div>
           <div className="project__title-wrap">
             <p className="project__type">{project.type}</p>
             <h3>{project.title}</h3>
