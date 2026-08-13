@@ -481,7 +481,7 @@ section[id] { scroll-margin-top: 5.5rem; }
   .capability { grid-template-columns: 1.8rem minmax(0, 1fr) 2rem; min-height: 5.9rem; column-gap: 0.65rem; row-gap: 0.3rem; }
   .capability__name { font-size: clamp(1.6rem, 7.8vw, 2.7rem); }
   .capability__detail { right: auto; bottom: auto; max-width: 11rem; font-size: 0.6rem; }
-  .capabilities__signal { --signal-orbit-radius: 3.35rem; --studio-signal-scale: 0.75; grid-area: signal; position: relative; top: auto; left: auto; z-index: 0; align-self: start; justify-self: end; width: clamp(6.75rem, 26vw, 9rem); height: clamp(6.75rem, 26vw, 9rem); margin: 1.8rem 0 0; transform: rotate(35deg) scale(var(--studio-signal-scale)); }
+  .capabilities__signal { --signal-orbit-radius: 3.35rem; --studio-signal-scale: 1.35; grid-area: signal; position: relative; top: auto; left: auto; z-index: 0; align-self: start; justify-self: end; width: clamp(6.75rem, 26vw, 9rem); height: clamp(6.75rem, 26vw, 9rem); margin: 1.8rem 0 0; transform: translate(-0.65rem, 0.9rem) rotate(35deg) scale(var(--studio-signal-scale)); }
   .capabilities__signal-word { font-size: clamp(3.7rem, 13vw, 5rem); }
   .manifesto { min-height: auto; padding: 5.5rem 1.25rem 4.5rem; }
   .manifesto__topline { display: grid; gap: 0.25rem; }
