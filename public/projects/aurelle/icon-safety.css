@@ -1,0 +1,12 @@
+.aurelle-diagonal-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.08em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+}

@@ -7,6 +7,7 @@ import './styles/global.css'
 const standaloneProjectRoutes = new Set([
   '/projects/dionysia',
   '/projects/lichtwerft',
+  '/projects/aurelle',
 ])
 
 if (standaloneProjectRoutes.has(window.location.pathname)) {
