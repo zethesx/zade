@@ -4,8 +4,17 @@ import App from './App'
 import './styles/tokens.css'
 import './styles/global.css'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const standaloneProjectRoutes = new Set([
+  '/projects/dionysia',
+  '/projects/lichtwerft',
+])
+
+if (standaloneProjectRoutes.has(window.location.pathname)) {
+  window.location.replace(`${window.location.pathname}/${window.location.search}${window.location.hash}`)
+} else {
+  createRoot(document.getElementById('root')!).render(
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  )
+}
