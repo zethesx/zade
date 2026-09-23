@@ -30,8 +30,22 @@ export const projects: Project[] = [
     alt: 'Sauberei cleaning service website hero with dark video imagery, oversized German typography, and a clear call to action.',
   },
   {
-    id: 'dionysia',
+    id: 'hausmeister-gartenservice',
     index: '02',
+    title: 'HAUSMEISTER & GARTENSERVICE',
+    type: 'Property service website',
+    year: '2026',
+    description: 'A practical local service experience for garden care, maintenance, and everything in between.',
+    preview: '/media/hausmeister-gartenservice-hero.webp',
+    previewPosition: 'center',
+    href: 'https://www.hausmeister-undgartenservice.de',
+    external: true,
+    accent: 'var(--color-yellow)',
+    alt: 'Hausmeister and garden service website hero with hedge-care video, oversized German typography, and a clear call to action.',
+  },
+  {
+    id: 'dionysia',
+    index: '03',
     title: 'Dionysia',
     type: 'Theatre / cultural website',
     year: '2026',
@@ -45,7 +59,7 @@ export const projects: Project[] = [
   },
   {
     id: 'lichtwerft',
-    index: '03',
+    index: '04',
     title: 'LICHTWERFT',
     type: 'Residential advisory website',
     year: '2026',
@@ -59,7 +73,7 @@ export const projects: Project[] = [
   },
   {
     id: 'aurelle',
-    index: '04',
+    index: '05',
     title: 'AURÉLLE',
     type: 'Editorial jewelry website',
     year: '2026',
@@ -73,7 +87,7 @@ export const projects: Project[] = [
   },
   {
     id: 'rove-field-notes',
-    index: '05',
+    index: '06',
     title: 'Rove Field Notes',
     type: 'Travel editorial website',
     year: '2026',
@@ -87,7 +101,7 @@ export const projects: Project[] = [
   },
   {
     id: 'supper-club-29',
-    index: '06',
+    index: '07',
     title: 'Supper Club 29',
     type: 'Hospitality website',
     year: '2025',
@@ -101,7 +115,7 @@ export const projects: Project[] = [
   },
   {
     id: 'reverb-ledger',
-    index: '07',
+    index: '08',
     title: 'Reverb Ledger',
     type: 'Fintech product website',
     year: '2026',
