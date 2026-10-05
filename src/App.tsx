@@ -341,7 +341,11 @@ function App() {
             <footer className="site-footer">
               <div className="site-footer__brand"><img className="site-footer__wordmark" src="/media/zade-studios-wordmark.png" alt="Zade Studios" /></div>
               <div className="site-footer__links">
-                {site.socials.map((social) => <span key={social.label} className="site-footer__social-status"><span>{social.label}</span><span> — Coming soon</span></span>)}
+                {site.socials.map((social) => social.label === 'Instagram' ? (
+                  <a key={social.label} href="https://www.instagram.com/zadestudios.de?stkn=MWtkMTJjaGkzMmx5eg==" target="_blank" rel="noopener noreferrer">Instagram <Icon name="arrowUp" size={13} /></a>
+                ) : (
+                  <span key={social.label} className="site-footer__social-status"><span>{social.label}</span><span> — Coming soon</span></span>
+                ))}
                 <a href="#top">Back to top <Icon name="arrowUp" size={13} /></a>
               </div>
               <div className="site-footer__meta"><span>© {new Date().getFullYear()} Zade Studios</span><span>{site.location}</span></div>
