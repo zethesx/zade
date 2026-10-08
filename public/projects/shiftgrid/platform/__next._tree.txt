@@ -1,0 +1,5 @@
+:HL["/projects/shiftgrid/_next/static/chunks/2lya7vcvj3pul.css","style"]
+:HL["/projects/shiftgrid/fonts/barlow-condensed.ttf","font",{"crossOrigin":"anonymous","type":"font/ttf"}]
+:HL["/projects/shiftgrid/fonts/manrope.ttf","font",{"crossOrigin":"anonymous","type":"font/ttf"}]
+:HL["/projects/shiftgrid/fonts/ibm-plex-mono.ttf","font",{"crossOrigin":"anonymous","type":"font/ttf"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4180,"slots":{"children":{"name":"platform","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"GUGyAtrYpR6UVVkF6ki8S"}
